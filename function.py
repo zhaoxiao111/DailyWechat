@@ -10,7 +10,7 @@ def get_time():
     dictDate = {'Monday': '星期一', 'Tuesday': '星期二', 'Wednesday': '星期三', 'Thursday': '星期四',
                 'Friday': '星期五', 'Saturday': '星期六', 'Sunday': '星期天'}
     a = dictDate[nowtime.strftime('%A')]
-    return nowtime.strftime("%Y年%m月%d日 %H时%M分 ") + a
+    #return nowtime.strftime("%Y年%m月%d日 %H时%M分 ") + a
 
 
 def get_words():
